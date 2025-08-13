@@ -1,0 +1,121 @@
+
+
+
+.log-container{
+    margin: 6% auto;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 55vh;
+    width: 24%;
+    border: 1px solid black;
+    border-radius: 10px ;
+    padding: 10px 20px;
+    background-color: #f0f4f9;
+}
+
+.log-container .login-title{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.login-title p{
+    font-size: 20px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(46deg, #0055df, #d11100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.log-container .input-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+}
+
+.log-container .input-boxes input{
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+}
+
+.log-container .radio-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left:  10px;
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.radio-btn input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.radio-btn label {
+  cursor: pointer;
+  color: #333;
+  font-weight: 700;
+}
+
+
+.log-container .sign-in{
+    margin: 10px auto;
+    border-radius: 10px ;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.sign-in button{
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+
+.log-container .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px auto;
+}
+
+.info p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.info p a{
+    text-decoration: none;
+}
+
+.info p a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
