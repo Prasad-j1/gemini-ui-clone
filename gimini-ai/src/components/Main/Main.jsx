@@ -6,6 +6,8 @@ import './Main.css';
 
 const Main=({username})=>{
 
+    // to show the send icon if the input has any text
+    const [input,setinput]=useState("");
 
     return(
         <div className="main">
@@ -54,13 +56,13 @@ const Main=({username})=>{
 
             <div className="bottom-container">
                 <div className="box-search">
-                    <input classNam="input-box" type="text" placeholder='Enter a Promot Here..' />
+                    <input classNam="input-box" type="text" placeholder='Enter a Promot Here..' onChange={(e)=>setinput(e.target.value)}/>
                 </div>
 
                 <div className="buttom-image">
                     <img className='gallleryImg' src={assets.gallery_icon} alt="" />
                     <img className='micImg' src={assets.mic_icon} alt="" />
-                    <img className='sendImg' src={assets.send_icon} alt="" />
+                    {input ? <img className='sendImg' src={assets.send_icon} alt="" /> : null}
                 </div>
             </div>
         </div>
